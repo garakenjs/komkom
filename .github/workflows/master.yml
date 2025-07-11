@@ -26,8 +26,8 @@ jobs:
       # --- BAGIAN YANG DIPERBAIKI ---
       - name: Setup Git Configuration
         run: |
-          git config user.email "${{ github.repository_owner }}@users.noreply.github.com"
-          git config user.name "${{ github.repository_owner }}"
+          git config user.email "byarbyurbyaar99@gmail.com"
+          git config user.name "garakenjs"
       # --- AKHIR BAGIAN YANG DIPERBAIKI ---
 
       - name: Update Timestamp File and Set Output
